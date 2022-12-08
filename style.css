@@ -1,0 +1,148 @@
+body {
+    padding: 5%;
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* scrollbar-color: red; */
+    overflow: scroll; 
+}
+
+.navbar {
+    padding: 1%;
+}
+
+.about-me  {
+    /* background-color: plum; */
+    /* padding: 10%; */
+    padding-left: 15%; 
+    padding-right: 15%;
+    padding-top: 5%;
+    font-size: larger;
+    /* line-height: 270%; */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
+
+.about-me h2 {
+    text-align: right;
+    /* padding-top: 10% */
+    padding-left: 70%;
+    font-size: large !important;
+    height: calc(30vh);
+     /* padding-right: 5%; */
+}
+
+.featured-projects {
+    /* text-align: center; */
+    font-size: x-large;
+}
+
+.gallery {
+    padding: 0 !important;
+    justify-content: center;
+    display: flex
+}
+
+.featured-projects h1 {
+    text-align: center;
+}
+
+div.desc {
+    padding: 0 !important;
+    text-align: left;
+  }
+
+.gallery-item {
+    padding: 0 !important;
+    justify-content: center;
+
+    /* display: flex; */
+    /* flex: 33.33%; */
+    /* padding: 5px; */
+
+}
+
+/* .img {
+    width: 100%;
+    height: auto;
+} */
+
+figure {
+    /* float:none; */
+    /* width: 20%; */
+    text-align: center;
+    /* font-style: italic; */
+    /* font-size: smaller; */
+    /* text-indent: 0; */
+    /* border: thin silver solid; */
+    /* margin: 0.5em; */
+    /* padding: 0.5em; */
+  }
+
+nav {
+
+}
+  
+li {
+    display: inline;
+    margin-right: 40px;
+}
+
+
+.content-wrapper {
+      font: large;
+      padding: 2%;
+      line-height: 160%;
+}
+
+.header {
+    /* background-color: white; */
+    color: white;
+    /* border-radius: 30%; */
+    font: xx-large;
+    /* padding: 1%; */
+    padding-top: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%
+}
+
+.page-section-1 {
+    /* background-color: #a3b18a; */
+    padding: 2%;
+    padding-left: 0 !important;
+    margin-top: 1%;
+    font: large;
+    margin-bottom: 1%;
+    /* background-color: rgb(241, 195, 107); */
+    /* color: #344e41; */
+        /* font-size: large; */
+}
+
+.page-section-1 a {
+    text-decoration: underline;
+}
+
+.page-section-2 {
+    /* background-color: #a3b18a; */
+    padding: 2%;
+    padding-left: 0 !important;
+    margin-top: 1%;
+    font: large;
+    /* color: #344e41; */
+    /* background-color: rgb(241, 195, 107); */
+        /* font-size: large; */
+}
+
+/* .expand summary {
+    background-color: white;
+} */
+
+.details-example summary{
+    font-style: italic;
+}
