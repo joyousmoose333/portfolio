@@ -33,19 +33,22 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-  <body style="background-color: #e23633">
+    <body style="background-color: #153a24">
 
     <nav>
         <li><a href="./index.html">Home</a></li>
-        <li><a href="./redesign.html">Redesign</a></li>
-        <a href="./dev.html">Development</a>
+        <li><a href="./redesign.html">Web Redesign</a></li>
+        <li><a href="./dev.html">Development</a></li>
+        <li><a href="./personas.html">Personas & Storyboarding</a></li>
+        <li><a href="./eyetracking.html">Eyetracking</a></li>
+
+
                 <!-- <a href="./contact.html">Contact</a> -->
     </nav>
 
     <div class="content-wrapper">
         <div class="header">
-            <h1><strong>Responsive Redesign: LA County Public Works Website</strong></h1>
-            <!-- <h2>LA County Public Works</h2> -->
+            <h1><strong>🖥 Responsive Redesign: LA County Public Works Website</strong></h1>
         </div>
         <div class="page-section-1">
             <h1>Introduction</h1>
@@ -53,15 +56,14 @@
             are meant to publicize these services are often <strong>confusing and outdated.</strong> I was inspired to redesign the 
             <a href="https://dpw.lacounty.gov/contact/">Department of Public Works website </a>for my hometown of Los Angeles,
             and to test my design skills in the process.</p>
-            <h2>The Original Site: Identifying Usability Problems</h2>
+            <h1>The Original Site: Identifying Usability Problems</h1>
             <div class="img-wrapper">
                 <img src="images/redesign/original-site.png" class="figure-img img-fluid" alt="a screenshot of the original site" style="width: 47%; height: auto;">
                 <img src="images/redesign/original-site-2.png" class="figure-img img-fluid" alt="another screenshot of the original site" style="width: 47%; height: auto;">
             </div>
-            <h4>After interacting with the original site (pictured above), I documented the followig concerns I had with the usability (including efficiency), learnability, and memorability of the site. </h4>
-            <h4>Illogical reading path encouraged</h4>
-            <details class="details-example">
-                <summary>Curious? Click for more.</summary>
+            <h4>After interacting with the original site (pictured above), I documented the following concerns I had with the usability (including efficiency), learnability, and memorability of the site. </h4>
+            <details class ="details-example ">
+                <summary style="font-size:x-large" >Illogical reading path encouraged</summary>
                 <ul>
                     <li>[1] In an emergency, a user would need to quickly access instructions in regard to their situation. 
                         Yet, the “urgent requests” section is at the bottom of the page, preventing easy visibility. 
@@ -76,9 +78,8 @@
                 </ul>
             </details>
             
-            <h4>Unclear Information</h4>
             <details class="details-example">
-                <summary>Curious? Click for more.</summary>
+                <summary style="font-size:x-large">Unclear Information</summary>
                 <ul>
                     <li>[3] There is redundancy in the contact information on the site—one phone number is listed at the top 
                         and another is listed as an option to <em>“Call Public Works”</em> which would likely confuse a user, given 
@@ -92,9 +93,8 @@
                 </ul>
             </details>
         
-            <h4>Stylistic Inconsistency</h4>
             <details class="details-example">
-                <summary>Curious? Click for more.</summary>
+                <summary style="font-size:x-large">Stylistic Inconsistency</summary>
                 <ul>
                     <li>[5] The poor textual hierarchy of the site makes it difficult to use and learn, as a reading path is not encouraged. 
                         This can be seen in the differences of header sizes and randomness of italitazation and bolding of text. 
@@ -111,32 +111,32 @@
                 </ul>
             </details>
            
-            <h4>Mobile Compatability Concerns</h5>
                 <details class="details-example">
-                    <summary>Curious? Click for more.</summary>
+                    <summary style="font-size:x-large">Mobile Compatability Concerns</summary>
                     <li>[9] On mobile devices, the site is extremely warped, incompatible, and hard to navigate, leaving users stuck and confused.</li>
 
                 </details>
-
-            <br>
-            <h2>The Original Site: Accessibility</h2>
-            <p> I used <a href="https://wave.webaim.org/">WebAIM WAVE </a> to detect and consider possible accessibility problems with the site.
-                The WAVE report for this site reported 12 errors, 4 contrast errors, and 6 alerts. Some of the errors reported, specifically the 
-                “empty link” and “empty button” warnings did not seem to be actual issues on the site and referenced text that is not meant to 
-                be a link, so I do not agree with those problems. The “contrast errors” and the tools on WAVE to better understand contrast and 
-                text accessibility were very helpful, though. Additionally, the ARIA accessibility analysis was helpful for better unedrstanding 
-                site accessibility.</p>
+         
+            <details class ="details-example ">
+                <summary style="font-size:x-large" >Accessibility Concerns</summary>
+                    <p> I used <a href="https://wave.webaim.org/">WebAIM WAVE </a> to detect and consider possible accessibility problems with the site.
+                    The WAVE report for this site reported 12 errors, 4 contrast errors, and 6 alerts. Some of the errors reported, specifically the 
+                    “empty link” and “empty button” warnings did not seem to be actual issues on the site and referenced text that is not meant to 
+                    be a link, so I do not agree with those problems. The “contrast errors” and the tools on WAVE to better understand contrast and 
+                    text accessibility were very helpful, though. Additionally, the ARIA accessibility analysis was helpful for better unedrstanding 
+                    site accessibility.</p>
+            </details>
         </div>
 
     <div class="page-section-2">
         <h1>Next, it was time for a visual redesign</h1>
-        <h2>First, Low-Fidelity Wireframing</h2>
+        <h1>First, Low-Fidelity Wireframing</h1>
         
         <p>Here are wireframes of my proposed redesign of the site, created using Balsamiq.
             There are 3 wireframes for mobile, tablet, and web layouts, as I am building out a 
             responsive redesign. Each of the numbers are listed in reference to the usability error from above that the change is solving.</p>
         <details class="details-example">
-            <summary>Click here to see the wireframes</summary>
+            <summary style="font-size:x-large">See the wireframes</summary>
             <img src="images/redesign/lowfi-ipad.png" class="figure-img img-fluid" alt="a low-fi mockup for tablet">
             <img src="images/redesign/lowfi-phone.png" class="figure-img img-fluid" alt="a low-fi mockup for mobile">
             <img src="images/redesign/lowfi-browser.png" class="figure-img img-fluid" alt="a low-fi mockup for browser" style="width: max-content">
@@ -146,21 +146,19 @@
     </div>
 
     <div class="page-section-1">
-        <h2>Visual Style Guide</h2>
-        <p>Below is clear documentation of the visual style I will utilize in the building out of the revised site.</p>
+        <h1>Visual Style Guide</h1>
+        <p>Below is clear documentation of the visual style I planned to utilize in the building out of the revised site.</p>
         <div class="img-wrapper">
             <img src="images/redesign/style_guide.png" class="figure-img img-fluid" alt="style guide for site" style="width: 60%">
         </div>
     </div>
 
     <div class="page-section-2">
-        <h2>High-Fidelity Prototyping</h2>
-        <h3>Below are three hi-fi prototypes based on the previous low-fi prototypes. They are annotated with 
-            the different elements and key layout choices so that the site is easily producable after this 
-            step. I plan to build the site using the Bootstrap class.</h3>
-
+        <h1>High-Fidelity Prototyping</h1>
             <details class="details-example">
-                <summary>Click here to see more</summary>
+                <summary style="font-size:x-large">Below are three hi-fi prototypes based on the previous low-fi prototypes. They are annotated with 
+                    the different elements and key layout choices so that the site is easily producable after this 
+                    step. I plan to build the site using the Bootstrap class.</summary>
                 <h3>Web Hi-Fi</h3>
                 <img src="images/redesign/hifi-web.png" class="figure-img img-fluid mx-auto d-block"  style="width: 70%" alt="hifi prototype for web">
                 <h3>Tablet Hi-Fi </h3>
@@ -171,12 +169,12 @@
     </div>
 
     <div class="page-section-1">
-        <h2>My Responsive Redesign</h2>
+        <h1>My Responsive Redesign</h1>
         <p><a href="https://joyousmoose333.github.io/public-works-redesign/">Linked here is my redesigned LA Public Works site, built through the iterative design process depicted above. </a></p>
     </div>
 
     <div class="page-section-2">
-        <h2>Lessons Learned & Lingering Thoughts</h2>
+        <h1>Lessons Learned & Lingering Thoughts</h1>
         <p>This was the first time I've worked on a redesign of an existing site, and I learned quite a bit through this journey--from how 
             to have a critical eye for a website while still recognizing positive elements to preserve, to how to create a solid code plan
             and framework before beginning to build. I was also teaching myself HTML and CSS as I worked through this, and this project 
